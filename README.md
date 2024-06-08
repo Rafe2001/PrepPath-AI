@@ -1,10 +1,10 @@
 # PrepPath AI Interview Assistant
 
-PrepPath AI is an intelligent interview assistant designed to help users prepare for job interviews. It leverages advanced natural language processing (NLP) models, including LangChain's LLM, to provide accurate and relevant answers to a wide range of interview questions.
+PrepPath AI is an intelligent interview assistant designed to help users prepare for job interviews. It leverages open source Mixtral-8x7b-32768 LLM through Groq API, to provide accurate and relevant answers to a wide range of interview questions.
 
 ## Features
 
-- **Intelligent Question-Answering**: PrepPath AI uses state-of-the-art NLP models, such as LangChain's LLM, to understand and answer user questions with precision.
+- **Intelligent Question-Answering**: PrepPath AI uses state-of-the-art LLM mixtral-8x7b-32768, to understand and answer user questions with precision.
 - **User-Friendly Interface**: The web-based interface makes it easy for users to interact with the assistant and receive instant responses.
 - **Wide Range of Topics**: Whether it's technical questions, behavioral scenarios, or industry-specific inquiries, PrepPath AI can handle them all.
 - **Customizable Prompt Templates**: Users can customize the prompts to tailor the responses to their specific needs and contexts.
@@ -18,6 +18,7 @@ PrepPath AI is an intelligent interview assistant designed to help users prepare
 - Flask
 - LangChain
 - GoogleGenerativeAIEmbeddings
+- Groq API
 - Chroma
 
 ### Installation
@@ -25,7 +26,7 @@ PrepPath AI is an intelligent interview assistant designed to help users prepare
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/PrepPath-AI.git
+   git clone https://github.com/Rafe2001/PrepPath-AI.git
    cd PrepPath-AI
    ```
 
