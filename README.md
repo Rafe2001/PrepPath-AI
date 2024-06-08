@@ -2,6 +2,10 @@
 
 PrepPath AI is an intelligent interview assistant designed to help users prepare for job interviews. It leverages open source Mixtral-8x7b-32768 LLM through Groq API, to provide accurate and relevant answers to a wide range of interview questions.
 
+![image](https://github.com/Rafe2001/PrepPath-AI/assets/108533597/3c5e5b19-974a-4123-b422-0bd9ecf57b16)
+![image](https://github.com/Rafe2001/PrepPath-AI/assets/108533597/3a07b5c8-db8a-49c3-a0e7-4c4307c8b56c)
+
+
 ## Features
 
 - **Intelligent Question-Answering**: PrepPath AI uses state-of-the-art LLM mixtral-8x7b-32768, to understand and answer user questions with precision.
