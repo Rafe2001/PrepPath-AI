@@ -1,0 +1,10 @@
+langchain
+langchain_community
+langchain_groq
+flask
+faiss-cpu
+pypdf
+python-dotenv
+google-cloud-aiplatform>=1.38
+langchain_google_genai
+groq 

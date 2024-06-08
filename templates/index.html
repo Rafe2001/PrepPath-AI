@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrepPath AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>PrepPath AI: Interview Assistant</h1>
+        <div id="chatbox">
+            <div id="messages"></div>
+        </div>
+        <div class="input-group">
+            <input type="text" id="questionInput" placeholder="Ask a question...">
+            <button onclick="askQuestion()">Ask</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
